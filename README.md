@@ -1,41 +1,41 @@
 # React-node-Photo-gallery
-React Photo Gallery
-Source code for react/node photo gallery app
+1.React Photo Gallery
+2.Source code for react/node photo gallery app
 
-Setup a cloundinary account
-You'll need to create a cloudinary account https://cloudinary.com/users/register/free - there is a free tier.
+3.Setup a cloundinary account
+4.You'll need to create a cloudinary account https://cloudinary.com/users/register/free - there is a free tier.
 
-Start the server
-Clone the repo
-In the api folder, create a new file called .env. In here, add your cloudinary connection details e.g:
+5.Start the server
+6.Clone the repo
+7.In the api folder, create a new file called .env. In here, add your cloudinary connection details e.g:
 
-API_KEY={YOUR_API_KEY}
-CLOUD_NAME={YOUR_CLOUD_NAME}
-API_SECRET={YOUR_API_SECRET}
+8.API_KEY={YOUR_API_KEY}
+9.CLOUD_NAME={YOUR_CLOUD_NAME}
+10.API_SECRET={YOUR_API_SECRET}
 
-You can get this from your cloudinary dashboard after signing up. **Avoid checking these details in to a public repo - this is effectively your username and password so keep em safe! :) **
+11.You can get this from your cloudinary dashboard after signing up. **Avoid checking these details in to a public repo - this is effectively your username and password so keep em safe! :) **
 
-Open a terminal and run the following from the API folder:
-
-
-npm install
-npm run server
-
-You can check its working by going to localhost:7000/photos in Postman or Chrome
-Run the Frontend
-NOTE: Make sure the Node server (in the API folder) is started otherwise the frontend won't work.
-
-Clone the repo
-In the client folder, create a new file called .env. In here, add an environment variable to point to the local node.js server e.g:
-
-REACT_APP_API_URL=http://localhost:7000
-
-If you change the port the node server runs on for whatever reason make sure to change it here too
-
-Open a terminal and run the following from the CLIENT folder:
+12.Open a terminal and run the following from the API folder:
 
 
-npm install
-npm start
+13.npm install
+14.npm run server
 
-The app should be running on localhost:3000
+15.You can check its working by going to localhost:7000/photos in Postman or Chrome
+16.Run the Frontend
+17.NOTE: Make sure the Node server (in the API folder) is started otherwise the frontend won't work.
+
+18.Clone the repo
+19.In the client folder, create a new file called .env. In here, add an environment variable to point to the local node.js server e.g:
+
+20.REACT_APP_API_URL=http://localhost:7000
+
+21.If you change the port the node server runs on for whatever reason make sure to change it here too
+
+22.Open a terminal and run the following from the CLIENT folder:
+
+
+23.npm install
+24.npm start
+
+25.The app should be running on localhost:3000
